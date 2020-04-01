@@ -1,5 +1,16 @@
-apply plugin: 'groovy'
+//apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'groovy'
+
+//android {
+//    compileSdkVersion 27
+//    defaultConfig {
+//        minSdkVersion 21
+//        targetSdkVersion 27
+//        versionCode 1
+//        versionName "1.0.0"
+//    }
+//}
 
 dependencies {
     compile "com.android.tools.build:gradle:3.4.1"
