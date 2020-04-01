@@ -1,16 +1,5 @@
-//apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'groovy'
-
-//android {
-//    compileSdkVersion 27
-//    defaultConfig {
-//        minSdkVersion 21
-//        targetSdkVersion 27
-//        versionCode 1
-//        versionName "1.0.0"
-//    }
-//}
 
 dependencies {
     compile "com.android.tools.build:gradle:3.4.1"
@@ -25,21 +14,13 @@ dependencies {
 
 
 publish {
-   // repoName='AppleModelPlugin'
     userOrg = 'applehsp'
- //   licences=['Apache-2.0']
     repoName='com.model.buildgradle'
     groupId = 'com.model.buildgradle'
     artifactId = 'model-plugin'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'this is a frame for android base'
     website = 'https://github.com/apple317/ModelPlugin.git'
 }
 
 
-//userOrg = 'chengzichen'//bintray.com用户名
-//groupId = 'com.dhc.component'//jcenter上的路径
-//artifactId = 'component-plugin'//项目名称
-//publishVersion = '1.0.5'//版本号
-//desc = 'Oh hi, this is component , show android-component-plugin'//描述，不重要
-//website = 'https://github.com/chengzichen/Flyabbit'//网站，不重要
