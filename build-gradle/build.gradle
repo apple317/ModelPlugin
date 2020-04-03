@@ -11,14 +11,12 @@ dependencies {
 }
 
 
-
-
 publish {
-    userOrg = 'applehsp'
+    userOrg = 'applehusp'
     repoName='com.model.buildgradle'
     groupId = 'com.model.buildgradle'
     artifactId = 'model-plugin'
-    publishVersion = '1.0.1'
+    publishVersion = '1.0.0'
     desc = 'this is a frame for android base'
     website = 'https://github.com/apple317/ModelPlugin.git'
 }
